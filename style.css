@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: red;
+    margin-bottom: 20px;
+}
+#addTaskButton
+{
+    color:#007BFF;
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: pink;
+    color: white;
+}
+
+button:hover {
+    background-color: #ffb2e6;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f4f4f4;
+    display: flex;
+    
+}
